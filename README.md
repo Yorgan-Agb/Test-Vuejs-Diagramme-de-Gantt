@@ -22,6 +22,6 @@
 </div>
 
 <hr/>
-![edTake](https://user-images.githubusercontent.com/90197161/162149511-03234ad6-42e2-4355-8a1b-65b8b31fb887.png)
+![](https://user-images.githubusercontent.com/90197161/162149511-03234ad6-42e2-4355-8a1b-65b8b31fb887.png)
 
 
