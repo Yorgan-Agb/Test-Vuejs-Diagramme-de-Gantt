@@ -1,0 +1,103 @@
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin-top: 60px;
+}
+
+h1 {
+  color: #00548b;
+}
+
+h3 {
+  color: #00548b;
+}
+
+.gantt-container {
+  width: 45%;
+}
+
+.sectionTop {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+.sectionTop:first-child {
+  width: 50%;
+}
+
+.table {
+  width: 45%;
+}
+
+.tableGantt {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.tableGantt thead tr {
+  background-color: #00548b;
+  color: #ffffff;
+  text-align: left;
+}
+
+.tableGantt th,
+.tableGantt td {
+  padding: 12px 15px;
+}
+
+.tableGantt tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.tableGantt tbody tr:nth-of-type(even) {
+  background-color: #00538bf2;
+}
+
+.tableGantt tbody tr:last-of-type {
+  border-bottom: 2px solid #b1ada6;
+}
+
+.tableGantt tbody tr.secondTableGantt {
+  font-weight: bold;
+  color: rgb(161, 156, 148);
+}
+
+.gantt .bar {
+  fill: #00548b;
+}
+
+.firstColumn {
+  background-color: #00548b;
+  opacity: 1;
+}
+
+.viewModeContainer {
+  display: flex;
+}
+
+.viewMode {
+  background-color: #00538bf2;
+  color: #dddddd;
+  margin: 20px;
+}
+
+.pascalContainer {
+  color: black;
+  margin: 5px;
+}
+
+.pascal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addButton {
+  background-color: #00538bf2;
+  color: #dddddd;
+}
